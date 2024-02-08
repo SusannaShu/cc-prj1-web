@@ -1,0 +1,39 @@
+.biggyWord {
+  font-size: 160px;
+  color: black;
+  font-weight: bold;
+  margin-top: 80px;
+  font-family: 'Didot';
+  border-radius: 50%; /* This makes the background round */
+  text-align: center;
+  background-image: radial-gradient(
+    circle,
+    lightpink,
+    transparent
+  ); /* Fading effect */
+}
+.biggyWord:hover {
+  font-size: 160px;
+  font-weight: bold;
+  margin-top: 80px;
+  font-family: 'Didot';
+  background-color: hotpink;
+  text-align: center;
+  color: white;
+}
+p {
+  font-size: 60px;
+  color: black;
+  font-weight: bold;
+  margin-top: 50px;
+  font-family: 'Didot';
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+div{
+  text-align: center;
+}
